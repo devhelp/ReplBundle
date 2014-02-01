@@ -1,0 +1,8 @@
+parameters:
+    devhelp.repl.task.class: Devhelp\ReplBundle\Command\ReplTask
+
+services:
+    devhelp.boris.task:
+        class: "%devhelp.repl.task.class%"
+        tags:
+        -  { name: console.command }

@@ -1,0 +1,22 @@
+{
+    "name": "devhelp/ReplBundle",
+    "description": "Repl integration with symfony 2 using Boris library",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michal Sikora",
+            "email": "michal@devhelp.pl"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Devhelp\\ReplBundle": "" }
+    },
+    "target-dir": "Devhelp/ReplBundle",
+    "minimum-stability": "dev",
+    "require": {
+        "php":                            ">=5.3.6",
+        "symfony/framework-bundle":       ">=2.3",
+        "d11wtq/boris": "*"
+    }
+}
